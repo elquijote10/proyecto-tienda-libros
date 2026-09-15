@@ -20,7 +20,7 @@
 
     <main class="contenedor-principal">
         <section class="banner">
-            <h2>Bienvenido a la Tienda de Libros</h2>
+            <h2 id="proyecto">Bienvenido a la Tienda de Libros</h2>
             <p>Encuentra tus lecturas favoritas al mejor precio.</p>
         </section>
 
@@ -49,11 +49,19 @@
                 <p>Descripción breve del libro.</p>
                 <button>Ver más</button>
             </article>
+            <!-- Contenedor dinámico usando una CLASE -->
+            <!-- <div class="libros-dinamicos" style="display: contents;"></div> --> 
+             <div 
+                class="libros-dinamicos" 
+                style="border: 1px solid black; padding: 10px; cursor: pointer;">
+                Haz clic aquí para ver los libros 
+            </div>
         </section>
     </main>
 
     <footer class="footer">
         <p>&copy; 2026 Tienda de Libros - Todos los derechos reservados</p>
     </footer>
+    <script src="./frontend/src/js/app.js"></script>
 </body>
 </html>

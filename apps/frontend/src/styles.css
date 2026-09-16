@@ -100,3 +100,20 @@ body {
 .tarjeta-libro p {
     color: #111111;
 }
+
+.libros-dinamicos {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  width: auto; /* Evita que ocupe toda la pantalla */
+}
+
+.libros-dinamicos:hover {
+  background-color: #218838;
+}

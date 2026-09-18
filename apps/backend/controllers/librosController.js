@@ -5,7 +5,7 @@ const libros = [
         titulo: "Sangre en el Diván",
         autor: "Ibéyisse Pacheco",
         anio: 2010,
-        genero: "Biografia",
+        genero: "Biografía",
         editorial: "Grijalbo",
         precio: 25,
     },
@@ -18,6 +18,24 @@ const libros = [
         editorial: "Ariel",
         precio: 30,
     },
+    {
+        id: 2,
+        titulo: "Sapiens",
+        autor: "Yuval Noah Harari",
+        anio: 2011,
+        genero: "No ficción",
+        editorial: "Debate",
+        precio: 30,
+    },
+    {
+        id: 3,
+        titulo: "Donde el Viento da la Vuelta",
+        autor: "Jordi Sierra i Fabra",
+        anio: 2005,
+        genero: "Literatura juvenil",
+        editorial: "Edebé",
+        precio: 15,
+    }
 ];
 
 // 1. Obtiene y retorna la lista completa de libros
